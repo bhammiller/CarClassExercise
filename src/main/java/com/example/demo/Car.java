@@ -3,6 +3,7 @@ package com.example.demo;
 public class Car extends Vehicle {
     private String car_color;
     private String car_model;
+    private Integer speed;
     public void setCar_color(String c){
         car_color = c;
     }
@@ -14,5 +15,11 @@ public class Car extends Vehicle {
     }
     public String getCar_model(){
         return car_model.toLowerCase();
+    }
+    public void setSpeed(Integer s){
+        speed = s;
+    }
+    public Integer getSpeed(){
+        return speed;
     }
 }
