@@ -6,26 +6,28 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @RequestMapping ("/")
     public void animal(){
-        Car a = new Car("black", "truck", 200);
-        Car b = new Car("red", "sedan", 50);
-        Car c = new Car("blue", "convertible", 70);
-        Car d = new Car("white","moped",60);
+        Car a = new Car("black", "truck", 80);
+        //Car b = new Car("red", "sedan", 50);
+        //Car c = new Car("blue", "convertible", 70);
+        //Car d = new Car("white","moped",60);
         print(a.start());
-        print(b.start());
-        print(c.start());
-        print(d.start());
-        print(a.accelerate());
-        print(b.accelerate());
-        print(c.accelerate());
-        print(d.accelerate());
+        //print(b.start());
+        //print(c.start());
+        //print(d.start());
         print(a.speed());
-        print(b.speed());
-        print(c.speed());
-        print(d.speed());
+        //print(b.speed());
+        //print(c.speed());
+        //print(d.speed());
+        print(a.speedChange());
+        //print(a.accelerate());
+        //print(b.accelerate());
+        //print(c.accelerate());
+        //print(d.accelerate());
+        print(a.speed());
         print(a.stop());
-        print(b.stop());
-        print(c.stop());
-        print(d.stop());
+        //print(b.stop());
+        //print(c.stop());
+        //print(d.stop());
 
 
 
