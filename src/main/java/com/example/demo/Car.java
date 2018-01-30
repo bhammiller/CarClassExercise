@@ -4,6 +4,12 @@ public class Car extends Vehicle {
     private String car_color;
     private String car_model;
     private Integer speed;
+    public Car(){}
+    public Car(String color, String model, int speed){
+        this.setCar_color(color);
+        this.setCar_model(model);
+        this.setSpeed(speed);
+    }
     public void setCar_color(String c){
         car_color = c;
     }
