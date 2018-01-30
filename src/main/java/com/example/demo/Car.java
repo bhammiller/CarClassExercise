@@ -22,4 +22,20 @@ public class Car extends Vehicle {
     public Integer getSpeed(){
         return speed;
     }
+    @Override
+    public String start(){
+        return "the " + car_color + " " + car_model + " is starting";
+    }
+    @Override
+    public String accelerate(){
+        return "the " + car_color + " " + car_model + " is accelerating";
+    }
+    @Override
+    public String speed(){
+        return "the " + car_color + " " + car_model + " is going " + speed + " MPH";
+    }
+    @Override
+    public String stop(){
+        return "the " + car_color + " " + car_model + " is stoping";
+    }
 }
